@@ -1,0 +1,44 @@
+.header-body{
+    background-color: #313131c7;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.header-body #logo{
+    width: 164px;
+    height: 42px;
+}
+
+.header-body .form-content{
+    width: 80%;
+    height: 42px;
+    /* border: 1px solid red; */
+    text-align: center;
+    position: relative;
+    
+}
+
+.form-content input{
+    height: 42px;
+    border: none;
+}
+
+.form-content #txtField{
+    width: 60%;
+    padding: 5px;
+    height: 32px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.form-content #btnSearch{
+    background-color: rgb(144, 3, 3);
+    color: #fff;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+

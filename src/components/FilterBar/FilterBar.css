@@ -1,0 +1,16 @@
+
+.filter-body{
+    background-color: #fff;
+    width: 100%;
+    color: red;
+    height: 40px;
+    box-shadow: 1px 5px 1px #c3c3c3;
+}
+
+.filter-body #category_selector{
+    height: 100%;
+    border: none;
+    float: right;
+    margin-right: 10px;
+    color: #c3c3c3;
+}
