@@ -2,6 +2,7 @@
 import './App.css'
 import FilterBar from './components/FilterBar/FilterBar'
 import Header from './components/Header/Header'
+import ProductCard from './components/ProductCard/ProductCard'
 
 
 //Reaproveitando componentes
@@ -16,7 +17,10 @@ function App() {
     <Header/>
     <FilterBar/>
     <div className='home-body'>
-      
+      <div className="cards-area">
+        <ProductCard/><ProductCard/><ProductCard/><ProductCard/><ProductCard/><ProductCard/><ProductCard/>
+        <ProductCard/><ProductCard/><ProductCard/><ProductCard/><ProductCard/><ProductCard/><ProductCard/>
+      </div>
       <div className='whatsapp-btn'>
         <img src="../src/assets/whatsapp.png" alt="" />
         Fale connosco
