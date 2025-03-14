@@ -4,13 +4,13 @@ export default function ProductCard(props) {
     return (
         <>
         <div className="card-body">
-            <img src="../src/assets/cloth_29.jpg" />
-            <h3>Nome do producto</h3><br />
+            <img src={props.img} />
+            <h3>{props.name}</h3><br />
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                  Sapiente, ills ducimus 
             </p>
-            <h4>R$ 48 </h4>
+            <h4>R$ {props.price}</h4>
         </div>
         </>);
 }
