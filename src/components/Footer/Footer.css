@@ -1,0 +1,9 @@
+
+
+.footer-body{
+    background-color:  #313131c7;
+    color: #fff;
+    height: 250px;
+    border: 1px solid red;
+    display: flex;
+}

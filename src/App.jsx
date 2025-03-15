@@ -1,6 +1,7 @@
 
 import './App.css'
 import FilterBar from './components/FilterBar/FilterBar'
+import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import ProductCard from './components/ProductCard/ProductCard'
 
@@ -34,11 +35,9 @@ function App() {
           <img src="../src/assets/whatsapp.png" alt="" />
           Fale connosco
         </div>
-        <div className='footer-body'>
-          teste
-        </div>
+       
       </div>
-
+      <Footer/>
     </>
 
   )
