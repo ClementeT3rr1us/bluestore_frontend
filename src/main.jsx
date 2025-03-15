@@ -7,6 +7,7 @@ import Login from './components/Login/Login.jsx'
 //Configurando routers
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import SignUp from './components/SignUp/SignUp.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />
+  },
+  {
+    path: "/signup",
+    element: <SignUp />
   }]);
 
 
