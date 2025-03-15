@@ -19,6 +19,11 @@ export default function Login() {
                         <input type="submit" value="Login" id="btn"/>
                     </form>
                 </div>
+                <br />
+                <p className="recover-account">
+                        <Link to="recover-account" className="recover-account-link-2">
+                               Esquece a senha?
+                        </Link></p>
             </div>
         </>
     );
