@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Login.css"
 
 export default function Login() {
@@ -11,6 +12,10 @@ export default function Login() {
                     <form action="#">
                         <input type="text" placeholder="Insira o seu usuário"/> <br />
                         <input type="password" placeholder="Insira sua password"/> <br />
+                        <p className="recover-account">
+                        <Link to="recover-account" className="recover-account-link">
+                               Esquece a senha?
+                        </Link></p>
                         <input type="submit" value="Login" id="btn"/>
                     </form>
                 </div>

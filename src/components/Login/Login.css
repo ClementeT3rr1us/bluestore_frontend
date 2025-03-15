@@ -13,7 +13,7 @@
     width: 250px;
     height: 350px;
     border-radius: 15px;
-    box-shadow: 2px 3px 7px #c3c3c3;
+    box-shadow: 2px 3px 7px #323232;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,12 +42,25 @@ input{
     padding: 8px;
 }
 
+.recover-account{
+    /* border: 1px solid red; */
+    height: 22px;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.recover-account-link{
+    color: #216fdb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 #btn{
     height: 30px;
     width: 214px;
     background-color: #216fdb;
     padding: 8px;
     color: #fff;
-    margin-top: 40px;
 }
 

@@ -14,10 +14,13 @@
 .card-body img{
     width: 240px;
     height: 240px;
+    border-radius: 5px;
 }
 
 .card-body h3{
     width: 240px;
+    color: #313131;
+    font-weight: 600;
     /* border: 1px solid red; */
     height: 32px;
     text-align: justify;
@@ -28,7 +31,7 @@
     /* border: 1px solid red; */
     margin-top: -15px;
     height: 52px;
-    text-align: justify;
+    text-align: start;
 }
 
 .card-body h4{
