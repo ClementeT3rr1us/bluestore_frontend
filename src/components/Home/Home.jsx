@@ -27,7 +27,10 @@ export default function Home() {
                 <div className="menu-item">Definições</div>
             </div>
             <div className="content-area">
-                content area
+                <p>content area</p>
+                <h1>
+                    Here you'll have all the pages
+                </h1>
             </div>
             </div>
             <Footer></Footer>
