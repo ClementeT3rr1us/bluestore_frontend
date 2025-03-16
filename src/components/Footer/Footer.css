@@ -4,7 +4,7 @@
     background-color:  #313131c7;
     color: #fff;
     height: fit-content;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

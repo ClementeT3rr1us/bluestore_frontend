@@ -9,7 +9,7 @@ export default function Login() {
                     <img src="./src/assets/logo_h.png" id="logo" />
                     <h3 className="title">Insira seu dados</h3>
                     <br />
-                    <form action="/signup">
+                    <form action="/home">
                         <input type="text" placeholder="Insira o seu usuário" /> <br />
                         <input type="password" placeholder="Insira sua password" /> <br />
                         <p className="recover-account">
