@@ -25,14 +25,17 @@ export default function Footer() {
                         <h3>
                             Endereços
                         </h3><br />
-                        <a href="#">Endereço completo</a> <br /> <br />
+                        <a href="#">Endereço Físico</a> <br /> <br />
                         <a href="mailto:">Email: clementedino681@gmai.com</a> <br /> <br />
                         <a href="tell:">Telefone: +244 921 100 664</a>
                     </p>
                 </div>
                 <div className="footer-column">
                     <p>
-                        testando 3
+                        <p>Sobre o desenvolvedor</p>
+                        <a href="#">
+                            <img src="./src/assets/qr_code.jpg" width={120} height={120} id="qr-link"/>
+                        </a>
                     </p>
                 </div>
 
