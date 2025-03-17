@@ -16,5 +16,19 @@
     border: 1px solid blue;
     height: 100%;
     width: 350px;
-    height: 250px;
+    height: fit-content;
+    padding: 8px;
+}
+
+.footer-column a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.footer-column img{
+    margin: 10px;
+    border-radius: 100%;
+    background-color: #fff;
+    padding: 8px;
 }
