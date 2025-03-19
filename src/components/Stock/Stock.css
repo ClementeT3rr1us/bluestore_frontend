@@ -13,3 +13,17 @@ table{
     width: 100%;
     margin-top: 10px;
 }
+
+tr{
+    height: 32px;
+}
+
+table, tr{
+    border-collapse: collapse;
+    padding: 10px;
+    border: 1px solid #c3c3c3;
+}
+
+td{
+    padding: 8px;
+}
