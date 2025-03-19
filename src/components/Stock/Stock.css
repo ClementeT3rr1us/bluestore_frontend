@@ -1,0 +1,15 @@
+.stock-body{
+    padding: 8px;
+}
+
+#btnNewProduct{
+    background-color: #216fdb;
+    padding: 9px;
+    border-radius: 4px;
+}
+
+table{
+    background-color: #fff;
+    width: 100%;
+    margin-top: 10px;
+}

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import "./Home.css"
+import Stock from "../Stock/Stock";
 
 export default function Home() {
     return (
@@ -27,10 +28,9 @@ export default function Home() {
                 <div className="menu-item">Definições</div>
             </div>
             <div className="content-area">
-                <p>content area</p>
-                <h1>
-                    Here you'll have all the pages
-                </h1>
+                <Stock>
+                    
+                </Stock>
             </div>
             </div>
             <Footer></Footer>
